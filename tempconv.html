@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tempconv.css">
+</head>
+
+<body>
+    <h1 id="title">Temperature Converter</h1>
+    <div class="card">
+        <div>
+        <div class="input-container">
+            <h3 id="cv">Converting value....</h3>
+            <input type="text" id="inputValue" placeholder="Enter temperature">
+            <select id="inputUnit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+        </div>
+        <div class="output-container">
+            <h3 id="ct">Convert To....</h3>
+            <select id="outputUnit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+        </div>
+        <div>
+             <button id="convertButton">Convert</button>
+        </div>
+        <div>
+            <h3 id="res">Converted value....</h3>
+            <p id="outputValue">Result will appear here</p>
+        </div>
+     </div>
+    </div>
+    <script src="tempconv.js"></script>
+</body>
+</html>
